@@ -1,0 +1,134 @@
+---
+layout: default
+tags: projects
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+function readMore() {
+    $('#readMore').hide();
+    $('#more').show();
+}
+function readLess() {
+    $('#readMore').show();
+    $('#more').hide();
+}
+</script>
+
+<div id="projects">
+<h2><a name="projects">Projects</a></h2>
+<br/>
+
+<table width="100%" align="center" valign="middle" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+    <tbody>
+  <tr>
+    <td valign="top" width="100%">
+    <h5>
+    Robotics and Machine Intelligence Laboratory
+    </h5>
+    <p class="authors">
+    Mentor: Prof. Rajesh Rohilla
+    </p>
+    <p><b>Real-time object recognition system for autonomous navigation.</b> Used the YOLO architecture and ZED stereo camera on Nvidia’s Jetson TX1 module to develop a system that provides real-time information about the identity of objects and their distance from the car using audio. </p>
+    <p>Implementing YOLO in Pytorch from scratch: <a href="https://github.com/prachigarg23/YOLO-in-pytorch">Code</a></p>
+  </td>
+  </tr>
+  <tr>
+    <td valign="top" width="100%">
+    <h5>
+    Road Traffic Counting (Digital Image Processing Course Project)
+    </h5>
+    <p class="authors">
+    <b>Prachi Garg</b>, Ashi Gupta, Prof. Dinesh Chutani
+    </p>
+    <p>In this project, we implement a motion detection and tracking algorithm to monitor road traffic passing through the road as captured by a video camera. We use OpenCV and Python to implement motion detection and tracking using background selection algorithms. <a href="https://github.com/prachigarg23/Road-Traffic-counting-using-python-and-opencv">Project Page</a> </p>
+  </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h5>Machine Learning projects:</h5>
+      <ul>
+        <li>
+          <p>Naive-Bayes for newsgroup classification in the 20 Newsgroups dataset. I used to compare the Scikit Learn implementations with the original algorithms. <a href="https://github.com/prachigarg23/20_NEWSGROUPS">Code</a></p>
+        </li>
+        <li>
+          <p>I love understanding the mathematics behind machine learning models and algorithms. I used to compare popular algorithms on the Scikit-Learn datasets and infer what kind of algorithms work best for which type of datasets and why. For example, there are implementations of Voronoi and PAM K-medoids algorithms, along with the Sklearn inbuilt ones. Code for this ML repository from when I first started learning: <a href="https://github.com/prachigarg23/Machine-Learning-Scikit-Learn">Code</a></p>
+        </li>
+        <li>
+          <p>For my first basic project to understand CNNs and hyperparameter tuning, I collected a dataset of dogs from my colony. Then I implemented various CNNs to train a <i>Dog classifier</i>. I also used YOLO to train a <i>Dog detector</i> on my dataset. <a href="https://github.com/prachigarg23/dog-classifier">Classifier Code /</a> <a href="https://github.com/prachigarg23/dog-detector">Detector Beginner Tutorial</a>
+          </p>
+        </li>
+      </ul>
+<!-- My first models on CIFAR: https://github.com/prachigarg23/CIFAR10 -->
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+    <h5>Algorithm to find all the possible spanning trees of a given graph in increasing order of cost. </h5>
+    <p>Solved using Prim's method: <a href="https://github.com/prachigarg23/All-possible-Spanning-trees">Code</a></p>
+  </td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<br/>
+
+<div id="robotics">
+<h2><a name="robotics">Robotics</a></h2>
+<p>Unmanned Aerial Vehicles</p>
+<br/>
+
+<table width="100%" align="center" valign="middle" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+    <tbody>
+  <tr>
+    <td colspan="2" valign="top" width="100%">
+      <h5>
+      IRL Technoxian Quadcopter Challenge, World Robotics Championship, by International Robotics Council (IRC), 2017
+      </h5>
+      <p>We built an indigeneous Light-Weight Sandwich Composite Multirotor System. As the Avionics Technician on the project, I was responsible for designing, integrating and testing the quadcopter's propulsion system and tuning the Naze flight controller. <a href="../reports/uas-propulsion-selection.pdf">Report</a></p>
+      <p>
+      </td>
+  </tr>
+  <tr>
+  <td width="40%">
+    <div class="one" style="text-align:center;">
+        <img src="../images/technoxian_quad.png" style="max-height: 250px;">
+    </div>
+  </td>
+  <td width="60%">
+    <div class="one" style="text-align:center;">
+        <img src="../images/technoxian_group_pic.png">
+    </div>
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" width="50%">
+      <h5>
+      AUVSI Student Unmanned Air Systems Competition, Maryland, USA, 2017
+      </h5>
+      <p><i>UAS Lazarus</i></p>
+      <p>
+      <a href="https://drive.google.com/file/d/1xYUFj6_2kZm-WKjKPy4-t2PZ22HlW0eo/view?usp=sharing">Journal Paper (Team UAS-DTU)</a>
+      </p>
+      <p>
+      Developed a customized Ardupilot firmware algorithm to capture the off-axis target using 2-axis gimbal stabilization for Lazarus. Did extensive flight testing of this feature for the <a href="https://www.auvsi-suas.org/">AUVSI-SUAS</a> competition.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="55%">
+      <div class="one" style="text-align:center;">
+          <img src="../images/Lazarus.jpg" style="max-height: 200px;">
+      </div>
+    </td>
+    <td width="45%">
+      <div class="one" style="text-align:center;">
+          <img src="../images/lazarus2.jpg">
+      </div>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<hr>
