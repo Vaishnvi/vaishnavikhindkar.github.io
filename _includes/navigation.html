@@ -6,6 +6,13 @@ function scrollToPublications() {
 	    'scrollTop':   $('#research').offset().top
 	}, 2000);
 }
+
+function scrollToNews() {
+	$(document.body).animate({
+	    'scrollTop':   $('#news').offset().top
+	}, 2000);
+}	
+	
 // function scrollToProjects() {
 // 	$(document.body).animate({
 // 	    'scrollTop':   $('#projects').offset().top
@@ -17,8 +24,8 @@ function scrollToPublications() {
 <!-- <a href="#" onclick="scrollToPublications();return false;">Publications</a> -->
 <!-- <a href="#" onclick="scrollToProjects();return false;">Projects</a> -->
 <!-- <a href="#projects">Projects</a> -->
-<a href="{{ site.basurl }}/projects/">Projects</a>
+<!--   <a href="{{ site.basurl }}/projects/">Projects</a>      -->
 <!-- <a href="{{ site.baseurl }}/">Achievements</a> -->
 <!-- <a href="{{ site.baseurl }}/">Achievements</a> -->
-<a href="{{ site.basurl }}/blog/">Blog</a>
-<!-- <a href="{{ site.baseurl }}/cv/Prachi_Garg__Curriculum_Vitae.pdf">CV</a> -->
+<!--   <a href="{{ site.basurl }}/blog/">Blog</a>         -->
+<a href="{{ site.baseurl }}/cv/Prachi_Garg__Curriculum_Vitae.pdf">CV</a>
