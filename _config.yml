@@ -1,10 +1,10 @@
 # Site settings
-title:       Prachi Garg
-email:       prachigarg2398@gmail.com
-author:      Prachi Garg
-description: "Prachi Garg's personal academic website"
+title:       Vaishnavi Khindkar
+email:       vkhindkar@gmail.com
+author:      Vaishnavi Khindkar
+description: "Vaishnavi Khindkar's personal academic website"
 baseurl:     ""
-url:         "http://prachigarg23.github.io"
+url:         "http://vaishnvi.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -49,7 +49,7 @@ twitter_username: PrachiG68526104
 skype_username:
 steam_nickname:
 google_plus_id: fa
-linkedin_username: prachi-garg-192276135
+linkedin_username: 
 angellist_username:
 medium_id:
 bitcoin_url:
